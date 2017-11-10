@@ -8,7 +8,6 @@ class Changer
 
     if coins.include?(value)
       change << value
-      return change
     else
       coins.reverse_each do |x|
         while ones.count >= x
